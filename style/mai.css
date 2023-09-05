@@ -1,0 +1,52 @@
+* {
+  font-family: "Inter", sans-serif;
+}
+
+:root {
+  --main-bg-color: rgb(21, 119, 119);
+}
+
+.navbar .container-fluid .collapse ul .nav-item {
+  margin-right: 25px;
+}
+.navbar .container-fluid .collapse ul .nav-item .nav-link {
+  font-size: 16px;
+  font-weight: 600;
+}
+.navbar .container-fluid .collapse .d-flex .btn-primary {
+  background-color: var(--main-bg-color);
+  border-color: var(--main-bg-color);
+  border-radius: 15px;
+}
+.navbar .container-fluid .collapse .d-flex :hover {
+  border-radius: 15px;
+  background-color: rgb(18, 172, 172);
+}
+
+.head {
+  padding-top: 40px;
+  height: 650px;
+  background-color: rgb(44, 135, 135);
+}
+.head .row .kiri .content h2 {
+  font-weight: bold;
+  font-size: 45px;
+  color: aliceblue;
+  margin-bottom: 40px;
+}
+.head .row .kiri .content p {
+  font-weight: bold;
+  font-size: 20px;
+  color: aliceblue;
+}
+.head .row .kiri .content .btn-primary {
+  margin-top: 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.head .row .kanan .img-fluid {
+  width: 500px;
+  height: 500px;
+}/*# sourceMappingURL=mai.css.map */

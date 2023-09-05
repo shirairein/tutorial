@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    width: 100%;
+    height: 40px;
+    gap: .6rem;
+}
+
+nav h6 {
+    margin: auto 0;
+}
+
+nav svg {
+    height: 20px;
+}
+
+.container {
+    margin-top: 80px !important;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+    height: 600px;
+    /* padding: 60px; */
+    
+}
+
+.container .row {
+    padding: 50px;
+}
+
+.container-login {
+    flex-direction: column;
+    padding: 25px 20px 20px;  
+    width: 430px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+}
+
+.form {
+    flex-direction: column;
+}
+
+.login-kanan {
+    flex-direction: column;
+}
+
+.heading-login {
+    font-size: 1.8rem;
+}
+
+.row .col input {
+    height: 50px;
+    background-color: #e7ebeb;
+}
+
+.row .col input:hover {
+    background-color: cadetblue;
+}
+
+.lupa {
+    margin-top: -10px;
+    font-size: 12px;
+}
+
+.button-masuk {
+    width: 130px;
+    padding: 10px !important;
+    border-radius: 30px !important;
+}
+
+.lain-lain {
+    margin-left: 10px;
+    display: flex;
+    gap: 1rem;
+}
+
+.lain-lain p, span {
+    font-size: 0.7rem;
+    font-weight: 500;
+}
+
+.lain-lain svg {
+    fill: blue;
+}
+
+.lain-lain-1, .lain-lain-2{
+    gap: 0.4rem;
+}
+
+.lain-lain span {
+    background: red;
+    color: #fff;
+    height: 20px;
+    padding: 2px 10px;
+    border-radius: 30px;
+}
+
+.other {
+    margin: 30px auto;
+    gap: 1rem;
+}
+
+.other-login {
+    padding: 10px 10px;
+    gap: 0.5rem;
+    width: 130px;
+    height: 40px;
+    border-radius: 15px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.daftar-akun {
+    margin: 0 auto;
+}
+
+.daftar-akun h5 {
+    font-size: .8em;
+}
+
+.bts-google {
+    cursor: pointer;
+}
